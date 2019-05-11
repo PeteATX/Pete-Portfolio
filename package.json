@@ -3,21 +3,23 @@
   "version": "1.0.0",
   "description": "To Evolve Into Portfolio",
   "main": "index.js",
-  "homepage": "https://PeteATX.github.com/Pete-Portfolio",
+  "homepage": "https://PeteATX.github.io/Pete-Portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "start": "parcel src/index.html --out-dir docs",
+    "build": "parcel build src/index.html --out-dir docs --public-url ./"
   },
   "author": "Peter",
   "license": "MIT",
   "devDependencies": {
     "sass": "^1.19.0"
-    
   },
   "dependencies": {
     "@dogstudio/highway": "^2.1.2",
     "gh-pages": "^2.0.1",
     "gsap": "^2.1.2",
+    "hyperapp": "^1.2.9",
     "npm-git-install": "^0.3.0",
     "parcel-bundler": "^1.12.3"
   }
