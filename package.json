@@ -16,6 +16,7 @@
     "@dogstudio/highway": "^2.1.2",
     "gh-pages": "^2.0.1",
     "gsap": "^2.1.2",
+    "hyperapp": "^1.2.9",
     "npm-git-install": "^0.3.0",
     "parcel-bundler": "^1.12.3",
     "yarn": "^1.16.0"
